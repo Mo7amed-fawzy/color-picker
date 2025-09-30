@@ -26,8 +26,8 @@ class SplashView extends StatelessWidget {
               Positioned(
                 top: 100,
                 child: Container(
-                  height: 250,
-                  width: 250,
+                  width: 20, // 👈 تحكم في العرض
+                  height: 20, // 👈 تحكم في الطول
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     gradient: RadialGradient(
@@ -48,8 +48,8 @@ class SplashView extends StatelessWidget {
                   filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
                   child: Container(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 30,
-                      vertical: 40,
+                      horizontal: 100,
+                      vertical: 300,
                     ),
                     decoration: BoxDecoration(
                       color: Colors.white.withValues(alpha: 0.05),
@@ -72,23 +72,23 @@ class SplashView extends StatelessWidget {
                                     Colors.deepOrangeAccent,
                                   ],
                                 ).createShader(bounds),
-                            child: const Text(
-                              "My Awesome App",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: 28,
-                                fontWeight: FontWeight.bold,
-                                letterSpacing: 1.5,
-                                color: AppColors.white,
-                                shadows: [
-                                  Shadow(
-                                    blurRadius: 10,
-                                    color: AppColors.black54,
-                                    offset: Offset(0, 3),
-                                  ),
-                                ],
-                              ),
-                            ),
+                            // child: const Text(
+                            //   "My Awesome App",
+                            //   textAlign: TextAlign.center,
+                            //   style: TextStyle(
+                            //     fontSize: 28,
+                            //     fontWeight: FontWeight.bold,
+                            //     letterSpacing: 1.5,
+                            //     color: AppColors.white,
+                            //     shadows: [
+                            //       Shadow(
+                            //         blurRadius: 10,
+                            //         color: AppColors.black54,
+                            //         offset: Offset(0, 3),
+                            //       ),
+                            //     ],
+                            //   ),
+                            // ),
                           ),
                         ],
                       ),
