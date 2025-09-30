@@ -66,20 +66,13 @@ Assets/
 </div>
 ---
 
-## 💡 Notes  
-
-- This repository is **archival and for reference only**  
-- All new development, including **Student Housing App** features, is in the new repository  
-- UI and assets here can be reused or adapted for the new project  
-- No backend integration is included in this version  
-
----
 
 ## ✅ Usage  
 
-- Use as a **reference** for layouts, widgets, and design elements  
-- Helpful for **rapid prototyping** in Flutter projects  
-- Includes **assets and demo data** to speed up UI mockups  
+- Click **Choose Image** to load a picture
+- Hover over the image to **preview color**
+- Click to **select color**
+- Save or export your color palette
 
 ---
 
