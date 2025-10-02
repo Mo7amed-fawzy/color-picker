@@ -80,8 +80,8 @@ Assets/
 
 1. **Clone the repository**  
 ```bash
-   git clone https://github.com/your-username/color-picker.git
-   cd real-estate-ui
+   git clone https://github.com/Mo7amed-fawzy/color-picker.git
+   cd color_picker_app
 ```
 
 2. **Install dependencies**  
